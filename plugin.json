@@ -1,20 +1,20 @@
 {
   "name": "siyuan-plugin-whiteboard",
-  "author": "zuoez02",
+  "author": "zuoez02 & soft98",
   "url": "https://github.com/zuoez02/siyuan-plugin-whiteboard",
-  "version": "0.1.10",
+  "version": "1.0.0",
   "minAppVersion": "2.10.11",
   "backends": ["all"],
   "frontends": ["all"],
   "displayName": {
-    "en_US": "Tldraw Whiteboard(Preview Version)",
+    "en_US": "Tldraw Whiteboard",
     "es_ES": "Plugin de Pizarra SiYuan (Versión de vista previa)",
-    "zh_CN": "Tldraw白板(预览版)"
+    "zh_CN": "Tldraw白板"
   },
   "description": {
-    "en_US": "Whiteboard based on tldraw, preview version",
+    "en_US": "Whiteboard based on tldraw",
     "es_ES": "Plugin de Pizarra SiYuan (Versión de vista previa)",
-    "zh_CN": "使用Tldraw构建的思源白板插件,目前为预览版"
+    "zh_CN": "使用Tldraw构建的思源白板插件"
   },
   "readme": {
     "en_US": "README.md",
@@ -23,7 +23,7 @@
   },
   "funding": {
     "custom": [
-      "https://afdian.net/a/zuoez02"
+      "https://afdian.com/a/soft98"
     ]
   }
 }

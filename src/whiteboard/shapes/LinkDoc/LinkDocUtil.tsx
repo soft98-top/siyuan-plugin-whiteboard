@@ -5,6 +5,7 @@ import {
 	TLOnResizeHandler,
 	getDefaultColorTheme,
 	resizeBox,
+	TLShapeUtilFlag,
 } from '@tldraw/tldraw'
 import { linkDocMigrations } from './link-doc-migrations'
 import { linkDocProps } from './link-doc-props'
@@ -26,6 +27,7 @@ export class LinkDocUtil extends ShapeUtil<ILinkDoc> {
 	override isAspectRatioLocked = (_shape: ILinkDoc) => false
 	override canResize = (_shape: ILinkDoc) => true
 	override canBind = (_shape: ILinkDoc) => true
+	override canEdit = () => true
 
 	getDefaultProps(): ILinkDoc['props'] {
 		return {

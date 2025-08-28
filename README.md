@@ -2,7 +2,7 @@
 
 > A whiteboard tool based on tldraw.
 
-Tldraw Version: 2.0.0-beta.1
+Tldraw Version: 3.15.3
 
 ## Installation Guide
 1. After installing this plugin from the marketplace, restart or refresh SiYuan, you can find the whiteboard Dock in the lower left corner.
@@ -16,6 +16,13 @@ Tldraw Version: 2.0.0-beta.1
 
 ---
 ## Changelog
+
+### v1.0.0
++ **Major Update**: Upgraded to Tldraw 3.15.3
++ Improved performance and stability
++ Enhanced UI/UX with modern Tldraw features
++ Better browser compatibility
+
 ### v0.1.8
 + Added English support for internationalization
 

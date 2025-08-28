@@ -26,6 +26,7 @@ export class LinkTextUtil extends ShapeUtil<ILinkText> {
 	override isAspectRatioLocked = (_shape: ILinkText) => false
 	override canResize = (_shape: ILinkText) => true
 	override canBind = (_shape: ILinkText) => true
+	override canEdit = () => true
 
 	getDefaultProps(): ILinkText['props'] {
 		return {
